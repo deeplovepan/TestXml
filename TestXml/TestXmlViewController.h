@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TestXmlViewController : UIViewController
+@interface TestXmlViewController : UIViewController <NSXMLParserDelegate>
 
 @end

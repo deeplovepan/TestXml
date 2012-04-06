@@ -15,6 +15,7 @@
 		DDF37C68152F3D8100A4FD95 /* TestXmlAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF37C67152F3D8100A4FD95 /* TestXmlAppDelegate.m */; };
 		DDF37C6B152F3D8100A4FD95 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF37C69152F3D8100A4FD95 /* MainStoryboard.storyboard */; };
 		DDF37C6E152F3D8100A4FD95 /* TestXmlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF37C6D152F3D8100A4FD95 /* TestXmlViewController.m */; };
+		DDF37C75152F3E0500A4FD95 /* test.xml in Resources */ = {isa = PBXBuildFile; fileRef = DDF37C74152F3E0500A4FD95 /* test.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,16 @@
 		DDF37C57152F3D8100A4FD95 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DDF37C59152F3D8100A4FD95 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DDF37C5B152F3D8100A4FD95 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DDF37C5F152F3D8100A4FD95 /* TestXml-Info.plist */ = {isa = PBXFileReference; path = "TestXml-Info.plist"; sourceTree = "<group>"; };
+		DDF37C5F152F3D8100A4FD95 /* TestXml-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestXml-Info.plist"; sourceTree = "<group>"; };
 		DDF37C61152F3D8100A4FD95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DDF37C63152F3D8100A4FD95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DDF37C65152F3D8100A4FD95 /* TestXml-Prefix.pch */ = {isa = PBXFileReference; path = "TestXml-Prefix.pch"; sourceTree = "<group>"; };
-		DDF37C66152F3D8100A4FD95 /* TestXmlAppDelegate.h */ = {isa = PBXFileReference; path = TestXmlAppDelegate.h; sourceTree = "<group>"; };
+		DDF37C65152F3D8100A4FD95 /* TestXml-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestXml-Prefix.pch"; sourceTree = "<group>"; };
+		DDF37C66152F3D8100A4FD95 /* TestXmlAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestXmlAppDelegate.h; sourceTree = "<group>"; };
 		DDF37C67152F3D8100A4FD95 /* TestXmlAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestXmlAppDelegate.m; sourceTree = "<group>"; };
 		DDF37C6A152F3D8100A4FD95 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		DDF37C6C152F3D8100A4FD95 /* TestXmlViewController.h */ = {isa = PBXFileReference; path = TestXmlViewController.h; sourceTree = "<group>"; };
+		DDF37C6C152F3D8100A4FD95 /* TestXmlViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestXmlViewController.h; sourceTree = "<group>"; };
 		DDF37C6D152F3D8100A4FD95 /* TestXmlViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestXmlViewController.m; sourceTree = "<group>"; };
+		DDF37C74152F3E0500A4FD95 /* test.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				DDF37C60152F3D8100A4FD95 /* InfoPlist.strings */,
 				DDF37C63152F3D8100A4FD95 /* main.m */,
 				DDF37C65152F3D8100A4FD95 /* TestXml-Prefix.pch */,
+				DDF37C74152F3E0500A4FD95 /* test.xml */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			files = (
 				DDF37C62152F3D8100A4FD95 /* InfoPlist.strings in Resources */,
 				DDF37C6B152F3D8100A4FD95 /* MainStoryboard.storyboard in Resources */,
+				DDF37C75152F3E0500A4FD95 /* test.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
